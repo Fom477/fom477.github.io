@@ -1,0 +1,23 @@
+body
+{
+    background-image: 
+        url("../../res/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg
+{
+    opacity: 0.1;
+}
+
+#resource
+{
+    border-radius: 5px;
+    background-color: white;
+    color: blueviolet;
+    opacity: 0.75;
+    height: 95vh;
+}
