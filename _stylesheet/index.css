@@ -4,9 +4,12 @@
     color: blueviolet;
     touch-action: pinch-zoom;
     width: 1000px;
-    height: 100px;
-    y: 10px;
-    border-radius: 5px;
+    height: 20px;
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    bottom: 80%;
+    transform: translateX(-50%);
 }
 
 #btn-redirect-song
@@ -15,9 +18,13 @@
     color: pink;
     touch-action: pinch-zoom;
     width: 1000px;
-    height: 100px;
-    y: 110px;
-    border-radius: 5px;
+    height: 20px;
+    position: absolute;
+    y: 60px;
+    border-radius: 10px;
+    left: 50%;
+    bottom: 55%;
+    transform: translateX(-50%);
 }
 
 #btn-redirect-wkzp
@@ -26,20 +33,26 @@
     color: pink;
     touch-action: pinch-zoom;
     width: 1000px;
-    height: 100px;
-    y: 210px;
-    border-radius: 5px;
+    height: 20px;
+    position: absolute;
+    bottom: 25vw;
+    y: 110px;
+    border-radius: 10px;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
 }
 
 #functionalities
 {
     position: absolute;
-    width: 1000px;
-    height: 230px;
+    width: 90vw;
+    height: 110px;
     border-radius: 8px;
     opacity: 0.75;
     bottom: 10%;
     left: 50%;
+    background-color: pink;
     transform: translateX(-50%);
 }
 
